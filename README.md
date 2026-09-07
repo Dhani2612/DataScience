@@ -11,10 +11,14 @@ The objective of this project is to build a classification model to evaluate the
 - Use highly interpretable models like **Logistic Regression** (Mandatory) alongside robust algorithms like **Random Forest Classifier**.
 - Provide data-driven insights through Exploratory Data Analysis (EDA).
 
-## 📊 Dataset
-- **Source**: Lending Club Loan Data (2007-2014)
-- **Shape**: 466,285 rows × 74 initial columns.
-- **Note**: The dataset file (`loan_data_2007_2014.csv`) is ignored in version control (`.gitignore`) due to its large size. 
+## 📊 Dataset & Data Dictionary
+- **Dataset**: Lending Club Loan Data (2007-2014)
+  - **Shape**: 466,285 rows × 74 initial columns.
+  - **Download Link**: [loan_data_2007_2014.csv](https://rakamin-lms.s3.ap-southeast-1.amazonaws.com/vix-assets/idx-partners/loan_data_2007_2014.csv)
+  - **Note**: The dataset file itself is ignored in version control (`.gitignore`) due to GitHub's 100MB file limit. Please download it from the link above and place it in the root directory before running the code.
+- **Data Dictionary**: 
+  - The local file `LCDataDictionary.xlsx` is included in this repository.
+  - **Online Reference**: [Google Sheets - LC Data Dictionary](https://docs.google.com/spreadsheets/d/1iT1JNOBwU4l616_rnJpo0iny7blZvNBs/edit?gid=1666154857#gid=1666154857)
 
 ## 🛠️ Tech Stack & Tools
 - **Language**: Python 3.11
